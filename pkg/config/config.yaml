@@ -1,0 +1,19 @@
+environment: development
+
+server_port: 10000
+grpc_port: 10001
+socket_path: /Users/macbookpro/.uds/gqlexample.sock
+
+mysql:
+  host: "127.0.0.1"
+  port: 3306
+  username: "gqlexample"
+  password: "123456"
+  database: "gqlexample"
+
+logger:
+  level: "debug"
+  log_path: "log/gqlexample.log"
+  max_size: 10
+  max_age: 30
+  max_backups: 10

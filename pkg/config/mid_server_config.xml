@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<server_config>
+    <obliagation_config>
+      <trading_day data="" />
+      <log_level level="DEBUG" />
+      <trading_interval>1</trading_interval>
+      <max_trading_count>100000</max_trading_count>
+      <trading_phase_config>
+        <trading_phase product_id="SSE_STOCK" duration_auction="09:30:00-11:30:00"/>
+        <trading_phase product_id="BSE_STOCK" duration_auction="09:30:00-11:30:00"/>
+      </trading_phase_config>
+    </obliagation_config>
+</server_config>
